@@ -1,52 +1,45 @@
 {
-  "keys": [
-    {
-      "key": "ABC-123-TESTE",
-      "status": "active", 
-      "type": "seconds", 
-      "duration": 120, 
-      "created_at": 1732400000,
-      "expires_at": 1732400120
+  "keys": {
+    "KEY-USER-001": {
+      "first_use": null,
+      "duration": "30m",
+      "perm": "user",
+      "active": true
     },
-    {
-      "key": "XYZ-999-MIN",
-      "status": "active",
-      "type": "minutes",
-      "duration": 30,
-      "created_at": 1732400000,
-      "expires_at": 1732401800
+
+    "KEY-VIP-777": {
+      "first_use": null,
+      "duration": "6h",
+      "perm": "vip",
+      "active": true
     },
-    {
-      "key": "HHH-555-HORAS",
-      "status": "disabled",
-      "type": "hours",
-      "duration": 5,
-      "created_at": 1732400000,
-      "expires_at": 1732418000
+
+    "KEY-PRO-300": {
+      "first_use": null,
+      "duration": "3d",
+      "perm": "pro",
+      "active": true
     },
-    {
-      "key": "KKK-888-DIAS",
-      "status": "active",
-      "type": "days",
-      "duration": 3,
-      "created_at": 1732400000,
-      "expires_at": 1732669200
+
+    "KEY-MENSAL-999": {
+      "first_use": null,
+      "duration": "1mo",
+      "perm": "vip",
+      "active": true
     },
-    {
-      "key": "PPP-444-MESES",
-      "status": "active",
-      "type": "months",
-      "duration": 2,
-      "created_at": 1732400000,
-      "expires_at": 1734992000
+
+    "KEY-ANUAL-888": {
+      "first_use": null,
+      "duration": "1y",
+      "perm": "premium",
+      "active": true
     },
-    {
-      "key": "VIP-PERM-777",
-      "status": "active",
-      "type": "perm",
-      "duration": 0,
-      "created_at": 1732400000,
-      "expires_at": 9999999999
+
+    "KEY-DESATIVADA-000": {
+      "first_use": null,
+      "duration": "1y",
+      "perm": "admin",
+      "active": false
     }
-  ]
+  }
 }
