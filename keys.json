@@ -1,0 +1,52 @@
+{
+  "keys": [
+    {
+      "key": "ABC-123-TESTE",
+      "status": "active", 
+      "type": "seconds", 
+      "duration": 120, 
+      "created_at": 1732400000,
+      "expires_at": 1732400120
+    },
+    {
+      "key": "XYZ-999-MIN",
+      "status": "active",
+      "type": "minutes",
+      "duration": 30,
+      "created_at": 1732400000,
+      "expires_at": 1732401800
+    },
+    {
+      "key": "HHH-555-HORAS",
+      "status": "disabled",
+      "type": "hours",
+      "duration": 5,
+      "created_at": 1732400000,
+      "expires_at": 1732418000
+    },
+    {
+      "key": "KKK-888-DIAS",
+      "status": "active",
+      "type": "days",
+      "duration": 3,
+      "created_at": 1732400000,
+      "expires_at": 1732669200
+    },
+    {
+      "key": "PPP-444-MESES",
+      "status": "active",
+      "type": "months",
+      "duration": 2,
+      "created_at": 1732400000,
+      "expires_at": 1734992000
+    },
+    {
+      "key": "VIP-PERM-777",
+      "status": "active",
+      "type": "perm",
+      "duration": 0,
+      "created_at": 1732400000,
+      "expires_at": 9999999999
+    }
+  ]
+}
